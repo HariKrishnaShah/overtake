@@ -1,0 +1,35 @@
+    .body{font-family: 'Open Sans', Arial, sans-serif;}
+		.intro, .scrollbtn, .lm{background:#055999;}
+		.services{background:#edf0ee;}
+    .services:hover, .lm:hover{border:1px solid #055999; background:white;}
+   .text-white.p-2.lm:hover{text-decoration: none; color:#055999 !important;}
+    .cc{width:80%; height:80%; position:relative;}
+    .slider .cc .imgtop{position:absolute; top:0px; left:0px; z-index:99; display:none;}
+    .slider .cc:hover .imgtop{display:block;}
+    .owl-nav{position:absolute; top:-25px; right:0px;}
+    .nav-link{color:#055999 !important; margin:1px;}
+    .home{background:#055999; color:white !important;}
+    .nat{padding:5px; background:#055999; font-size:15px; color:white; margin:1px;}
+    .nav-item .nav-link:hover{background:#055999; color:white !important;}
+    .foot{background:#1B1B1B;}
+    .big-icons{font-size:60px; padding:60px;}
+    .scrollbtn{position:fixed; bottom:0px; right:20px; display:none; font-size:10px;}
+    .about{background:none; border:none;}
+    html{scroll-behavior:smooth;}
+    .list-unstyled .new-links:hover{color:white !important; text-decoration:none;}
+    .credits{font-size:12px;}
+    .contact a i{position:relative ;}
+    .fa-facebook-f::after{content:'Facebook'; color:white; font-size:12px; position:absolute; top:-30px; left:-20px; padding:2px; background:black; display:none;}
+    .fa-facebook-f:hover::after{display:block;}
+    .fa-twitter::after{content:'Twitter'; color:white; font-size:12px; position:absolute; top:-30px; left:-20px; padding:2px; background:black; display:none;}
+    .fa-twitter:hover::after{display:block;}
+    .fa-linkedin-in::after{content:'Linked_in'; color:white; font-size:12px; position:absolute; top:-30px; left:-20px; padding:2px; background:black; display:none;}
+    .fa-linkedin-in:hover::after{display:block;}
+    .fa-pinterest-square::after{content:'Pinterest'; color:white; font-size:12px; position:absolute; top:-30px; left:-20px; padding:2px; background:black; display:none;}
+    .fa-pinterest-square:hover::after{display:block;}
+    .fa-google-plus::after{content:'Google+'; color:white; font-size:12px; position:absolute; top:-30px; left:-20px; padding:2px; background:black; display:none;}
+     .fa-google-plus:hover::after{display:block;}
+    @media screen and (max-width: 800px){
+    .navbar .container{display:block !important;}
+      .cc{width:100%; height:100%;}
+    }
